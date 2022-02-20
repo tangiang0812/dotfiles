@@ -1,0 +1,18 @@
+F2
+	amixer -c 0 set Master 2dB- unmute && notifyVolume
+
+F3
+	amixer -c 0 set Master 2dB+ unmute && notifyVolume
+
+F1
+	amixer -c 0 set Master toggle && notifyVolume
+
+F9
+	xbacklight -dec 10 && notifyBrightness
+
+F10
+	xbacklight -inc 10 && notifyBrightness
+Print 
+	scrot $HOME/Pictures/screenshot.png
+shift + Print 	
+	scrot -u $HOME/Pictures/screenshot_window.png
