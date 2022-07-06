@@ -1,61 +1,53 @@
-!! Transparency (0-1):
-*.alpha: 0.85
+! Transparency (0-1):
+st.alpha: 0.85
 ! alphaOffset is the alpha offset between focused and unfocused windows
-*.alphaOffset: 0.15
+st.alphaOffset: 0
 
 !! Set a default font and font size as below:
-st.font: monospace:size=12:antialias=true:autohint=true;
+st.font: MesloLGS NF:size=13:antialias=true:autohint=true;
 
 ! st.termname: st-256color
 ! st.borderpx: 2
 
 !! Set dmenu resources:
-dmenu.font :  monospace:size=12:antialias=true:autohint=true;
+
+!! material palenight:
+dmenu.font :  MesloLGS NF:size=13:antialias=true:autohint=true;
 dmenu.background : #292d3e
 dmenu.foreground : #82aaff
 dmenu.selbackground : #82aaff
 dmenu.selforeground : #292d3e
 
+!! catppuccin :D :
+!dmenu.font :  monospace:size=12:antialias=true:autohint=true;
+!dmenu.background : #1E1E2E
+!dmenu.foreground : #96CDFB
+!dmenu.selbackground : #96CDFB
+!dmenu.selforeground : #1E1E2E
+
 !! Set dwm colors:
 
-dwm.normbordercolor: #82aaff
+! material palenight:
+dwm.normbordercolor: #292d3e
 dwm.normbgcolor: #292d3e
 dwm.normfgcolor: #82aaff
-dwm.selbordercolor: #ffcb6b
+dwm.selbordercolor: #82aaff
 dwm.selbgcolor: #82aaff
 dwm.selfgcolor: #292d3e
+dwm.statusbtnfgcolor: #292d3e
+dwm.statusbtnbgcolor: #ffcb6b
 
-!dwm.normbordercolor: #82aaff
-!dwm.normbgcolor: #2e3436
-!dwm.normfgcolor: #82aaff
-!dwm.selbordercolor: #ffcb6b
-!dwm.selbgcolor: #82aaff
-!dwm.selfgcolor: #2e3436
+!! catppuccin :D :
+!dwm.normbordercolor: #96CDFB
+!dwm.normbgcolor: #1E1E2E
+!dwm.normfgcolor: #96CDFB
+!dwm.selbordercolor: #FAE3B0
+!dwm.selbgcolor: #96CDFB
+!dwm.selfgcolor: #1E1E2E
 
 !! Set the background, foreground and cursor colors as below:
 
 !! new material palenight:
-st.color0: #2e3436
-st.color1: #ff5370
-st.color2: #c3e88d
-st.color3: #ffcb6b
-st.color4: #82aaff
-st.color5: #c792ea
-st.color6: #89ddff
-st.color7: #d3d7cf
-st.color8: #555753
-st.color9: #ff5370
-st.color10: #c3e88d
-st.color11: #ffcb6b
-st.color12: #82aaff
-st.color13: #c792ea
-st.color14: #89ddff
-st.color15: #d3d7cf
-st.background: #292d3e
-st.foreground: #a6accd
-st.cursorColor: #ffcc00
-
-!! material palenight:
 !st.color0: #2e3436
 !st.color1: #ff5370
 !st.color2: #c3e88d
@@ -65,16 +57,58 @@ st.cursorColor: #ffcc00
 !st.color6: #89ddff
 !st.color7: #d3d7cf
 !st.color8: #555753
-!st.color9: #f07178
+!st.color9: #ff5370
 !st.color10: #c3e88d
-!st.color11: #f78c6c
-!st.color12: #729fcf
-!st.color13: #bb80b3
+!st.color11: #ffcb6b
+!st.color12: #82aaff
+!st.color13: #c792ea
 !st.color14: #89ddff
 !st.color15: #eeeeec
 !st.background: #292d3e
 !st.foreground: #a6accd
 !st.cursorColor: #ffcc00
+
+!! catppuccin :D :
+!st.color0: #6E6C7E
+!st.color1: #F28FAD
+!st.color2: #ABE9B3
+!st.color3: #FAE3B0
+!st.color4: #96CDFB
+!st.color5: #F5C2E7
+!st.color6: #89DCEB
+!st.color7: #D9E0EE
+!st.color8: #988BA2
+!st.color9: #F28FAD
+!st.color10: #ABE9B3
+!st.color11: #FAE3B0
+!st.color12: #96CDFB
+!st.color13: #F5C2E7
+!st.color14: #89DCEB
+!st.color15: #D9E0EE
+!st.background: #1E1E2E
+!st.foreground: #D9E0EE
+!st.cursorColor: #C3BAC6
+
+!! old material palenight:
+st.color0: #2e3436
+st.color1: #ff5370
+st.color2: #c3e88d
+st.color3: #ffcb6b
+st.color4: #82aaff
+st.color5: #c792ea
+st.color6: #89ddff
+st.color7: #d3d7cf
+st.color8: #555753
+st.color9: #f07178
+st.color10: #c3e88d
+st.color11: #f78c6c
+st.color12: #729fcf
+st.color13: #bb80b3
+st.color14: #89ddff
+st.color15: #eeeeec
+st.background: #292d3e
+st.foreground: #a6accd
+st.cursorColor: #ffcc00
 
 /* /1* !! gruvbox light: *1/ */
 /* *.color0: #fbf1c7 */

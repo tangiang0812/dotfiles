@@ -1,0 +1,2 @@
+#!/bin/bash
+unimatrix -s 95 -c cyan -a

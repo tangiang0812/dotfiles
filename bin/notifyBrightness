@@ -1,0 +1,16 @@
+#!/bin/bash
+# changeBrightness
+
+# Arbitrary but unique message tag
+msgTag="mybrightness"
+
+## Query xbacklight for the current brightness 
+brightness="$(xbacklight -get | awk -F"." '{print $1}')"
+
+## Send the notification
+#dunstify -a "changeBrightness" -u low -r 2 \
+#-h int:value:"$brightness" "Brightness: ${brightness}%"
+
+dunstify -a "changeBrightness" -u low -r 2 -i "sun-solid" \
+-h string:xdunst-stack-tag:$msgTag \
+-h int:value:"$brightness" "Brightness: ${brightness}%"

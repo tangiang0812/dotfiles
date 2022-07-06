@@ -1,0 +1,4 @@
+#! /bin/bash
+#st unimatrix -c cyan -s 97 -w  & st unimatrix -c cyan -s 97 -w & code & chromium
+#st  -e sh -c "unimatrix -c cyan -s 97 -w; exec zsh " & st  -e sh -c "unimatrix -c cyan -s 97 -w; exec zsh " & code & chromium
+st  -e sh -c "unimatrix -c cyan -s 97 -w; exec zsh " & code & chromium
